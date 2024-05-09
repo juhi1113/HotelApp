@@ -1,38 +1,31 @@
+# Hotel Booking App
 
+The Hotel Booking App is an Android application built using Java that allows users to search and book hotel rooms. It provides a user-friendly interface for browsing available hotels, selecting rooms, specifying booking details, and receiving notifications after successful bookings. Additionally, it includes an admin functionality for managing room occupancy and viewing user details.
 
+## Features
 
-Hotel Booking App
+- **User Registration/Login**: Users can create a new account or log in with their existing credentials.
+- **View Hotel Listings**: Users can view a list of available hotels along with their details and room availability.
+- **Select Room**: Users can select a room based on their preferences, such as room type, number of guests, and check-in/check-out dates.
+- **Booking Details**: Users can provide necessary booking details like check-in/check-out dates, number of guests, and contact information.
+- **Notifications**: Users will receive notifications confirming their bookings.
+- **Admin Functionality**: Admins can log in to manage room occupancy, view user details, and delete occupied rooms.
 
-Overview
+## Technologies Used
 
-This application is designed to provide hotel-related services to users. Users can log in or register to view hotel listings, select rooms, specify booking details, and receive notifications after successful bookings. Additionally, there is an admin login functionality for administrative purposes, allowing the admin to manage room occupancy and view user details.
+- Java
+- Android Studio
+- SQLite Database
+- Google Maps API (for displaying hotel locations)
 
-Components Used
+## Installation
 
-SQLite Database: Used for storing user credentials, hotel listings, room availability, and booking details.
-Notification: Utilized to send notifications to users after successful bookings.
-Cardviews: Employed for displaying hotel listings and room details in a visually appealing manner.
-Location: Integrated to provide users with information about hotel locations.
-Contact: Implemented to allow users to contact the hotel for inquiries or support.
-Send Message: Enables users to communicate with the hotel administration for assistance or inquiries.
-Radio Buttons: Used in the user interface for selecting room types or other options.
+1. Clone the repository: https://github.com/juhi1113/HotelApp.git
 
-Usage
+2. Open the project in Android Studio.
 
-User Registration/Login: Users can register for a new account or log in using existing credentials.
-View Hotel Listings: After logging in, users can view available hotel listings.
-Select Room: Users can select a room based on availability and preferences.
-Specify Booking Details: Users need to specify booking details such as check-in/check-out dates, number of guests, etc.
-Receive Notifications: Users will receive notifications confirming their bookings.
-Admin Functionality: Admins can log in to manage room occupancy, view user details, and delete occupied rooms.
+3. Build and run the app on an emulator or a physical device.
 
-Installation
+## Contributing
 
-Clone the repository: git clone <https://github.com/juhi1113/HotelApp.git>
-Navigate to the project directory: cd hotel-booking-app
-Install dependencies: npm install or yarn install
-Run the application: npm start or yarn start
-
-License
-
-This project is licensed under the MIT License.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
